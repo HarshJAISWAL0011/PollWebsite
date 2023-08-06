@@ -1,0 +1,73 @@
+/* Add your CSS styling here */
+.container {
+    width: 50%;
+    
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dynamic-textbox {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .dynamic-radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .option-label {
+    width: 120px;
+    display: inline-block;
+}
+  
+  .checkmark {
+    margin-right: 8px;
+  }
+  
+  .progress-bar {
+    margin-left: 30px;
+    width: 40%;
+    background-color: #c5c7cc;
+    border-radius: 10px;
+  }
+  
+  .filler {
+    height: 10px;
+    background-color: #007bff;
+    transition: width 0.5s;
+    border-radius: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaecfc;
+}
+
+
+
+.result-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}

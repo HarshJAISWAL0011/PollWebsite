@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* heading style */
+.app-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #007bff;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.app-title {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+}
+
+.app-description {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* main content style */
+
+.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+}
+
+.heading {
+ 
+    color: #333333;
+     font-size: 21px;
+    font-weight: 1000;
+
+font-family: 'REM', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option input[type="radio"]:checked + .checkmark {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+.option input[type="radio"]:checked + .checkmark::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+/* Styling for input text fields */
+.dynamic-textbox {
+    width: 80%;
+    height: 70px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 30px; /* Center horizontally and provide space from top and bottom */
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+    overflow-y: auto;
+}
+
+/* Styling for radio buttons in dynamically added sections */
+.dynamic-radio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    border-top: 1px solid #f5f5f5; 
+    padding-top: 10px;  
+}
+
+
+.dynamic-radio-container .option {
+    margin-right: 10px;
+}
+
+.add-option-button {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-option-button:hover {
+    background-color: #45a049;
+}
+
+#additionalFeilds{
+   background-color: #0d8cef; 
+}
+.contain{
+    max-width: 40%;
+    margin: 22px auto;
+    padding: 15px 0px 10px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.submit-button {
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0d8cef;
+}
+
+.submit-button:focus {
+    outline: none;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+ 
+.parent {
+    background-color: #f5f5f5;
+}
+
+#addBtn {
+    position: fixed;
+    top: 30%;
+    right: 20px; /* Adjust the distance from the right side */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #addBtn:hover {
+    background-color: #0056b3;
+  }
+
+  .view-results{
+    display: block;
+    margin: 10px auto;
+    width: 10%;
+    padding: 10px;
+    
+    color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* comments */
+#comments-section {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comment-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.comment {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    width: auto;
+    max-width: 35%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    margin: 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-comment {
+   
+    margin-left: auto;
+}   
+
+.comment-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.comment-submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.senderName{
+    font-size: 13px;
+    margin-left: 5px;
+    width: 50px;
+    margin-bottom: -13px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 3px;
+    font-style: italic;
+    color: #7e7e7e;
+}
