@@ -13,7 +13,7 @@ const username  = document.currentScript.getAttribute('data-username');
 
 viewResult.addEventListener('click', () => {
     console.log("clicked");
-    window.location.href = 'result.html';
+    window.location.href = '/static/result.html';
    
   });
   
@@ -119,7 +119,7 @@ submitBtn.addEventListener('click', () => {
         .then(data => {
           console.log('Server response:', data);
           // Redirect to another HTML page
-         window.location.href = "./thankyou.html";
+         window.location.href = "/static/thankyou.html";
          window.history.replaceState(null, "", "another-page.html");
 
         })

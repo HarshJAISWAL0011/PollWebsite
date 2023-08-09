@@ -1,52 +1,52 @@
 {
   "form": {
     "1": {
-      "question": "Who is best player of football ?",
+      "question": "Which mobile will you prefer for light use ?",
       "options": [
         {
-          "desc": "Ronaldo",
-          "count": 1
+          "desc": "Redmi Z2 pro",
+          "count": 3
         },
         {
-          "desc": "Messi",
+          "desc": "Samsum M34",
           "count": 0
         },
         {
-          "desc": "Mbappe",
+          "desc": "Motrola E13",
           "count": 0
         }
       ]
     },
     "2": {
-      "question": "Best player in ICC ?",
+      "question": "Which company laptop is good for heavy gaming?",
       "options": [
         {
-          "desc": "Babar Azam",
-          "count": 0
+          "desc": "Asus ROG Zephyrus",
+          "count": 2
         },
         {
-          "desc": "Virat Kohli",
+          "desc": "MSI GF63 Thin",
           "count": 1
         },
         {
-          "desc": "Rohit Sharma",
+          "desc": "HP Spectre x360 14",
           "count": 0
         }
       ]
     },
     "3": {
-      "question": "Where should the Olympics be held in 2024?",
+      "question": "Which hosting site you use?",
       "options": [
         {
-          "desc": "Tokyo",
+          "desc": "Hostinger",
+          "count": 2
+        },
+        {
+          "desc": "Godaddy",
           "count": 1
         },
         {
-          "desc": "Pairs",
-          "count": 0
-        },
-        {
-          "desc": "Quatar",
+          "desc": "BigRock",
           "count": 0
         }
       ]
@@ -54,16 +54,14 @@
   },
   "comments": [
     {
-      "comment": "No doubt it should be ronaldo",
+      "comment": "Certainly it is Hostinger",
       "name": "guest"
     },
     {
-      "comment": "I think Babar Azam",
-      "name": "guest"
-    },
-    {
-      "comment": "Olympic should held in India",
-      "name": "aaaa"
+      "comment": "I am using MSI GF63 Thin and it never dissapointed me",
+      "name": "Abhishek"
     }
+
+
   ]
 }

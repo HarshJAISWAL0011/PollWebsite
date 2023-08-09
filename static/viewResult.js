@@ -1,6 +1,7 @@
 const additionalFieldsContainer = document.getElementById("additionalFields");
+let baseURL="http://localhost:8080";
 
-fetch('http://localhost:8080/result', {
+fetch(baseURL+'/result', {
   method: 'GET',
 })
 .then(response => response.json())

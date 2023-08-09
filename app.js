@@ -5,13 +5,13 @@ const  path   = require('path');
 const app = express();
 var port=8080;
 
-app.use(express.static('static'));
+app.use('/static', express.static(path.join(__dirname, 'static')))
 app.use(express.json());
 app.use(cors());
 
 let pathIndex = path.join(__dirname,'./index.html');
 app.get('/', (req, res) => {
-res.render(pathIndex);
+res.sendFile(pathIndex);
 });
 
 app.post('/submit', (req, res) => {

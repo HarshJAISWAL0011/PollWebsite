@@ -16,7 +16,7 @@ const addBtn = document.getElementById("addBtn");
 
 viewResult.addEventListener('click', () => {
   console.log("clicked");
-  window.location.href = 'result.html';
+  window.location.href = '/static/result.html';
  
 });
 
@@ -81,6 +81,7 @@ submitBtn.addEventListener('click', () => {
       .then(response => response.json())
       .then(data => {
         console.log('Server response:', data);
+        alert('Poll has been creaed');
       })
       .catch(error => console.error('Error:', error));
       
