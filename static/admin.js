@@ -1,5 +1,6 @@
 console.log("Admin Pannel");
-let baseURL = "http://localhost:8080";
+// let baseURL = "http://localhost:8080";
+let baseURL = "https://main--rainbow-moonbeam-7c6881.netlify.app/";
 
 
 const submitBtn= document.getElementById('submitBtn');
