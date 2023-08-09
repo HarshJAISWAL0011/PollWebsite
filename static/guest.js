@@ -1,6 +1,6 @@
 console.log("Guest");
 // let baseURL = "http://localhost:8080";
-let baseURL = "https://main--rainbow-moonbeam-7c6881.netlify.app/";
+let baseURL = "https://main--rainbow-moonbeam-7c6881.netlify.app";
 
 const submitBtn= document.getElementById('submitBtn');
 const viewResult=document.getElementsByClassName('view-results')[0];
