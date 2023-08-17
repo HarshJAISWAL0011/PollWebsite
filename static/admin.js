@@ -1,6 +1,6 @@
 console.log("Admin Pannel");
 // let baseURL = "http://localhost:8080";
-let baseURL = "https://pollwebsites.onrender.com/";
+let baseURL = "https://pollwebsites.onrender.com";
 
 
 const submitBtn= document.getElementById('submitBtn');
